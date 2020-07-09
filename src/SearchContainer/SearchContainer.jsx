@@ -9,7 +9,7 @@ export const SearchBox = ({searchHandler}) => {
         <Row>
             <Col span={12} offset={6}>
                 <Search
-                    placeholder="enter movie, series, episode name"
+                    placeholder="enter movie"
                     enterButton="Search"
                     size="large"
                     onSearch={value => searchHandler(value)}
